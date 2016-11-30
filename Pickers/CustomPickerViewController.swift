@@ -58,7 +58,7 @@ class CustomPickerViewController: UIViewController,UIPickerViewDelegate,UIPicker
         winLabel.text = " "
     
     }
-    func showButton() { \\ Нажатие кнопки 
+    func showButton() { \\ Нажатие кнопки
         
         button.isHidden  = false
     
