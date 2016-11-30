@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED7A84B31DEEEB7500D72727 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = ED7A84B11DEEEB7500D72727 /* crunch.wav */; };
+		ED7A84B41DEEEB7500D72727 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = ED7A84B21DEEEB7500D72727 /* win.wav */; };
 		ED87C9991DE9F7A300089C5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87C9981DE9F7A300089C5D /* AppDelegate.swift */; };
 		ED87C99B1DE9F7A300089C5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87C99A1DE9F7A300089C5D /* ViewController.swift */; };
 		ED87C99E1DE9F7A300089C5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED87C99C1DE9F7A300089C5D /* Main.storyboard */; };
 		ED87C9A01DE9F7A300089C5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED87C99F1DE9F7A300089C5D /* Assets.xcassets */; };
 		ED87C9A31DE9F7A300089C5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED87C9A11DE9F7A300089C5D /* LaunchScreen.storyboard */; };
+		ED87C9AB1DE9F90200089C5D /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87C9AA1DE9F90200089C5D /* DatePickerViewController.swift */; };
+		ED87C9AD1DE9F97600089C5D /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87C9AC1DE9F97600089C5D /* SingleComponentPickerViewController.swift */; };
+		ED87C9AF1DE9F99D00089C5D /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87C9AE1DE9F99D00089C5D /* DoubleComponentPickerViewController.swift */; };
+		ED87C9B11DE9F9C600089C5D /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87C9B01DE9F9C600089C5D /* DependentComponentPickerViewController.swift */; };
+		ED87C9B31DE9F9E100089C5D /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87C9B21DE9F9E100089C5D /* CustomPickerViewController.swift */; };
+		ED92B16A1DEC622D00DCF9C0 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED92B1691DEC622D00DCF9C0 /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED7A84B11DEEEB7500D72727 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = crunch.wav; path = "../../beg-iphone-dev-w-swift-2-master/Example Source Code/07 - Picker Sounds/crunch.wav"; sourceTree = "<group>"; };
+		ED7A84B21DEEEB7500D72727 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = win.wav; path = "../../beg-iphone-dev-w-swift-2-master/Example Source Code/07 - Picker Sounds/win.wav"; sourceTree = "<group>"; };
 		ED87C9951DE9F7A300089C5D /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED87C9981DE9F7A300089C5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED87C99A1DE9F7A300089C5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		ED87C99F1DE9F7A300089C5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED87C9A21DE9F7A300089C5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED87C9A41DE9F7A300089C5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED87C9AA1DE9F90200089C5D /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatePickerViewController.swift; path = ../DatePickerViewController.swift; sourceTree = "<group>"; };
+		ED87C9AC1DE9F97600089C5D /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		ED87C9AE1DE9F99D00089C5D /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		ED87C9B01DE9F9C600089C5D /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		ED87C9B21DE9F9E100089C5D /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		ED92B1691DEC622D00DCF9C0 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = "../../beg-iphone-dev-w-swift-2-master/Example Source Code/07 - Picker Data/statedictionary.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +72,17 @@
 			children = (
 				ED87C9981DE9F7A300089C5D /* AppDelegate.swift */,
 				ED87C99A1DE9F7A300089C5D /* ViewController.swift */,
+				ED87C9AA1DE9F90200089C5D /* DatePickerViewController.swift */,
+				ED87C9AE1DE9F99D00089C5D /* DoubleComponentPickerViewController.swift */,
+				ED87C9AC1DE9F97600089C5D /* SingleComponentPickerViewController.swift */,
+				ED87C9B01DE9F9C600089C5D /* DependentComponentPickerViewController.swift */,
+				ED87C9B21DE9F9E100089C5D /* CustomPickerViewController.swift */,
 				ED87C99C1DE9F7A300089C5D /* Main.storyboard */,
 				ED87C99F1DE9F7A300089C5D /* Assets.xcassets */,
 				ED87C9A11DE9F7A300089C5D /* LaunchScreen.storyboard */,
+				ED92B1691DEC622D00DCF9C0 /* statedictionary.plist */,
+				ED7A84B11DEEEB7500D72727 /* crunch.wav */,
+				ED7A84B21DEEEB7500D72727 /* win.wav */,
 				ED87C9A41DE9F7A300089C5D /* Info.plist */,
 			);
 			path = Pickers;
@@ -123,8 +147,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7A84B31DEEEB7500D72727 /* crunch.wav in Resources */,
 				ED87C9A31DE9F7A300089C5D /* LaunchScreen.storyboard in Resources */,
 				ED87C9A01DE9F7A300089C5D /* Assets.xcassets in Resources */,
+				ED7A84B41DEEEB7500D72727 /* win.wav in Resources */,
+				ED92B16A1DEC622D00DCF9C0 /* statedictionary.plist in Resources */,
 				ED87C99E1DE9F7A300089C5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +165,11 @@
 			files = (
 				ED87C99B1DE9F7A300089C5D /* ViewController.swift in Sources */,
 				ED87C9991DE9F7A300089C5D /* AppDelegate.swift in Sources */,
+				ED87C9B11DE9F9C600089C5D /* DependentComponentPickerViewController.swift in Sources */,
+				ED87C9AD1DE9F97600089C5D /* SingleComponentPickerViewController.swift in Sources */,
+				ED87C9B31DE9F9E100089C5D /* CustomPickerViewController.swift in Sources */,
+				ED87C9AB1DE9F90200089C5D /* DatePickerViewController.swift in Sources */,
+				ED87C9AF1DE9F99D00089C5D /* DoubleComponentPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +331,7 @@
 				ED87C9A91DE9F7A300089C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
